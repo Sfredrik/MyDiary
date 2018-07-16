@@ -25,7 +25,7 @@ body {
 #header {
     padding: 10px;
     text-align: center;
-    background: url('deardiary.jpg');
+    background: url('../images/deardiary.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
