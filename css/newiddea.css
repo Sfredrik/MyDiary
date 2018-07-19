@@ -16,8 +16,9 @@
 body {
     font-family: Arial;
     padding: 10px;
-    background: #f1f1f1;
+    background-color: mintcream;
 }
+.row{background-color: mintcream;}
 /* Header*/
 
 #header {
@@ -27,7 +28,8 @@ body {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.6;
+    opacity:0.1px;
+    border-radius: 15px 15px 0 0;
     
 }
  h1{
@@ -41,7 +43,7 @@ body {
 /* Style the top navigation bar background-color: #333;*/
 .navgation1 {
     overflow: hidden;
-    background-color: black;
+    background-color: var(--antiq);
    
 }
 
@@ -52,6 +54,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 
@@ -63,15 +66,16 @@ body {
 }
 #span3 > div{
     border: 1px ;
-    border-radius: 3px;
+    border-radius: 0 20px;
     background-color: darkseagreen;
     height: 35px;
     padding: 5pxs;
-
+overflow: hidden;margin-top: 2px;
 
 }
 #span3 > div a{
     display: block;
+    
     color: black;
     text-decoration: none;
     margin-right: auto;
@@ -92,6 +96,8 @@ body {
 .contentcolumn {   
     float: left;
     width: 75%;
+    background-color: var(--antiq);
+        padding-top:20px;
 }
 
 .contentcolumn h1{
@@ -143,10 +149,20 @@ font-size: 14px;
     background-size: cover;
 }
 /* Add a card effect for articles */
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+.card1, .card2 {
+    background-color: var(--antiq);
+    opacity: 0.2px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.card1{
+    border-radius: 0 20px 0 0;
+    border: 0.5px solid;
+}
+
+.card2{
+    border-radius: 0 0px 0 20px;
+    border: 0.5px solid;
 }
 
 /* Clear floats after the columns */
@@ -177,7 +193,7 @@ font-size: 14px;
 
 
 #form1 > input{
-    padding:12px;
+    padding:9px;
     width:90%;
     border-radius:12px;
        
