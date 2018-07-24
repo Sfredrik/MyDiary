@@ -8,8 +8,6 @@
     --antiq:antiquewhite;
 	--shadow:0 1px 5px rgba(104, 104,104, 0.8 );
 	--black:black;
-
-
 }
 
 
@@ -18,7 +16,14 @@ body {
     padding: 10px;
     background-color: mintcream;
 }
-.row{background-color: mintcream;}
+.row{background-color: mintcream;
+}
+
+.bttn{
+    float: right;
+    margin-right: 50px;
+    margin-bottom:10px;
+}
 /* Header*/
 
 #header {
@@ -38,7 +43,7 @@ body {
 
 
     
-}
+
 
 /* Style the top navigation bar background-color: #333;*/
 .navgation1 {
@@ -97,19 +102,26 @@ overflow: hidden;margin-top: 2px;
     float: left;
     width: 75%;
     background-color: var(--antiq);
-        padding-top:20px;
+    padding-top:20px;
+    height:auto;
 }
 
 .contentcolumn h1{
     font-size:15px;
+    padding:1em;
 }
 .contentcolumn h2{
     font-size:10px;
+    padding:5em;
 }
 .contentcolumn p{
 text-align: justify;
 font-size: 14px; 
+padding:1em;
     
+}
+.contentcolumn button{
+    justify-items:center;
 }
 
 
@@ -215,10 +227,12 @@ font-size: 14px;
 }
 
 #topic{
-    border-radius: 3px;
+    margin-left: 10%;
+    height: 25px;
+}
+#date{
     margin-left: 10%;
 }
-
 #submits{
     display:flex;
     flex-direction: row;
@@ -266,6 +280,7 @@ font-size: 14px;
     .fielset{
     width:100%;
 }
+}
     
 @media screen and (max-width: 400px) {
     .navgation1 a {
@@ -284,6 +299,6 @@ font-size: 14px;
     margin:auto;
     
 }
-#form{
-    width:auto;
+#form {
+    width:auto;}
 }
